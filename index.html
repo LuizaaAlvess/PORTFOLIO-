@@ -71,64 +71,25 @@
     </section>
 
     <section id="about" class="section-container about-container">
-      <figure class="about-image">
-        <img src="./assets/img/551378758_18533158981003340_4259863769212882556_n.jpg" alt="Foto do perfil">
-      </figure>
 
-      <article class="about-content">
-        <h2>Sobre mim</h2>
-        <p>Construindo soluções através da tecnologia.</p>
-        <p>
-          Desenvolvedora em formação, graduanda em Análise e Desenvolvimento de Sistemas. 
-          Atuo no desenvolvimento de aplicações web utilizando TypeScript, JavaScript, HTML, CSS, 
-          além de APIs e backend com NestJS e MySQL. Curiosa, dedicada e em constante evolução no mundo da tecnologia.
-        </p>
-
-        <div class="about-buttons-data">
-          <div class="buttons-container">
-            <a href="https://github.com/luizaaAlvess/" target="_blank" class="botao">GitHub</a>
-            <a href="https://docs.google.com/document/d/1qX6hpl0RT9AP45uZlLbs25Qo3nW7yMgR/edit" target="_blank" class="botao-outline">Currículo</a>
-          </div>
-
-          <div class="data-container">
-            <div class="data-item">
-              <span class="data-number">100</span>
-              <span class="data-label">Seguidores</span>
-            </div>
-
-            <div class="data-item">
-              <span class="data-number">10</span>
-              <span class="data-label">Repositórios</span>
-            </div>
-          </div>
-        </div>
-      </article>
     </section>
 
     <section id="projects" class="section-container projects-container">
-      <h2>Meus projetos</h2>
+      <h2>Meus Projetos</h2>
 
-      <div class="projects-swiper">
-        <article class="project-card">
-          <figure class="project-image">
-            <img src="./assets/icons/github.svg" alt="Ícone GitHub">
-          </figure>
+      <!-- Swiper Container -->
+       <div class="swiper projects-swiper">
+          <div class="swiper-wrapper">
 
-          <div class="project-content">
-            <h3>Projeto GitHub</h3>
-            <p>Projeto desenvolvido no GitHub</p>
+       </div>
 
-            <div class="project-tags">
-              <span class="tag">GitHub</span>
-            </div>
+       <!-- Botões de navegação -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
 
-            <div class="project-buttons">
-              <a href="https://github.com/LuizaaAlvess/PORTFOLIO-" target="_blank" class="botao botao-sm">GitHub</a>
-              <a href="#" target="_blank" class="botao-outline botao-sm">Deploy</a>
-            </div>
-          </div>
-        </article>
-      </div>
+      <!-- Paginação -->
+       <div class="swiper-pagination"></div>
+       </div>
     </section>
 
     <section id="contact" class="section-container contact-container">
@@ -177,6 +138,12 @@
   <footer>
     Desenvolvido por Andreza Luiza Alves - 2026
   </footer>
+
+  <!-- SWIPER JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Script JavaScript-->
+<script src="assets/js/script.js"></script>
 
 </body>
 </html>
