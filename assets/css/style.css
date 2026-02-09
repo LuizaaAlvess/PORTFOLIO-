@@ -762,23 +762,27 @@ footer {
 .success-container {
     padding: var(--spacing-xl) var(--spacing-md);
     min-height: calc(100vh - 10rem);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .success-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     gap: var(--spacing-lg);
     max-width: 35rem;
-}
-
-.success-icon {
-    width: 6rem;
-    height: 6rem;
+    text-align: center;
 }
 
 .success-icon img {
-    width: 5rem;
-    height: 5rem;
+    width: 160px;      /* tamanho ideal */
+    max-width: 70%;
+    height: auto;
 }
-}
+
 
 @media screen and (max-width: 480px) {
 
@@ -990,4 +994,5 @@ footer {
     padding: 0.75rem var(--spacing-lg);
 }
 
+}
 }
