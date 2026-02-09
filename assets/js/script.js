@@ -28,7 +28,9 @@ async function getAboutGithub() {
             <p>Olá, eu sou a Andreza Luiza</p>
             <h1>Desenvolvedora Full Stack</h1>
             <p>
-                Desenvolvo aplicações web modernas com foco em criar experiências digitais incríveis e funcionais.
+                Sou estudante de Análise e Desenvolvimento de Sistemas e desenvolvedora fullstack JavaScript em formação pela Generation Brasil.
+Ao longo do bootcamp, venho desenvolvendo projetos utilizando HTML, CSS, JavaScript e TypeScript, além de trabalhar com Node.js, APIs, MySQL, MongoDB e ferramentas como Insomnia.
+Gosto de entender o problema antes de escrever código e busco criar soluções bem estruturadas, funcionais e fáceis de manter.
             </p>
 
             <div class="about-buttons-data">
